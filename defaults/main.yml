@@ -6,6 +6,8 @@
 #   - '*/5 * * * *  /bin/sh /absolute/path/to/cron.sh'
 #
 
+# task group name (=crontabs file name)
+cron_task_group_name: 'ansible'
 # list of cron entries
 cron_tasks: []
 # service name

@@ -3,7 +3,7 @@
 - name: Configuring cron
   template: >
     src=etc-cron-d-ansible.j2
-    dest=/etc/cron.d/ansible
+    dest=/etc/cron.d/{{ cron_task_group_name }}
     owner=root
     group=root
     mode=0644
